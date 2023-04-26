@@ -10,7 +10,11 @@
     box-sizing: border-box;
 }
 /*Generics*/
-
+main{
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    min-height: 300px;
+}
 /*Selettori avanzati*/
 
 /*Utilties*/
