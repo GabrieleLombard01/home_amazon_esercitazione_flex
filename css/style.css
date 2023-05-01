@@ -15,7 +15,7 @@ body{
 /*Generics*/
 main{
     background-image: url("../img/background_conteiner.png");
-    background-size: contain;
+    background-size: cover;
     min-height: 800px;
     max-width: 1300px;
     margin: 0 auto;
@@ -29,8 +29,7 @@ main{
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
-        padding-top: 50px;
-        padding-bottom: 100px;
+        padding-top: 30px;
 }
 .card{
     background-color: white;
@@ -48,6 +47,13 @@ main{
 .card_descr{
     background-color: rgb(252, 162, 43);
     min-height: 70px;
+}
+.showcase{
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1110px;
+    min-height: 250px;
+    margin-top: 20px;
 }
 /*header*/
 #nav1{
