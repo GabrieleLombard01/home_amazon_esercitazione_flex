@@ -15,10 +15,35 @@ main{
     background-size: contain;
     min-height: 800px;
 }
-/*Selettori avanzati*/
-
-/*Utilties*/
-
+    /*Selettori avanzati*/
+    
+    /*Utilties*/
+    .conteiner{
+        margin: 0 auto;
+        max-width: 1110px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+.card{
+    background-color: white;
+    min-height: 450px;
+    width: 350px;
+}
+.card_title{
+    background-color: bisque;
+    min-height: 70px;
+}
+.card_content{
+    background-color: rgb(253, 212, 161);
+    min-height: 310px;
+}
+.card_descr{
+    background-color: rgb(252, 162, 43);
+    min-height: 70px;
+}
 /*header*/
 #nav1{
     min-height: 60px;
