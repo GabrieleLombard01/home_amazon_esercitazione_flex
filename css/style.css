@@ -17,7 +17,7 @@ main{
     background-image: url("../img/background_conteiner.png");
     background-size: cover;
     min-height: 800px;
-    max-width: 1300px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 footer{
@@ -27,6 +27,14 @@ footer{
 /*Selettori avanzati*/
     
 /*Utilties*/
+.nav1_buttons{
+    min-height: 50px;
+    width: 250px;
+    border: solid white 1px;
+}
+.info{
+    width: 150px;
+}
 .conteiner{
         margin: 0 auto;
         max-width: 1110px;
@@ -63,17 +71,29 @@ footer{
 #nav1{
     min-height: 60px;
     background-color: #131921;
+    display: flex;
+    justify-content: space-between;
 }
 #nav2{
     min-height: 40px;
     background-color: #232f3e;
+}
+#nav1_search{
+    min-height: 50px;
+    width: 600px;
+    border: solid white 1px;
+}
+#nav1_orders{
+    min-height: 50px;
+    width: 100px;
+    border: solid white 1px;
 }
 /*jumbotron*/
 #ad_j{
     background-image: url("../img/background.jpg");
     background-size: cover;
     min-height: 300px;
-    max-width: 1300px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 /*Main*/
