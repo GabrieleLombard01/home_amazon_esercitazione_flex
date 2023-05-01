@@ -35,6 +35,11 @@ footer{
 .info{
     width: 150px;
 }
+.nav2_links{
+    min-height: 40px;
+    width: 80px;
+    background-color: rgb(175, 175, 175);
+}
 .conteiner{
         margin: 0 auto;
         max-width: 1110px;
@@ -77,6 +82,8 @@ footer{
 #nav2{
     min-height: 40px;
     background-color: #232f3e;
+    display: flex;
+    justify-content: space-between;
 }
 #nav1_search{
     min-height: 50px;
@@ -87,6 +94,11 @@ footer{
     min-height: 50px;
     width: 100px;
     border: solid white 1px;
+}
+#nav2_largelink{
+    min-height: 40px;
+    width: 250px;
+    background-color: rgb(175, 175, 175);
 }
 /*jumbotron*/
 #ad_j{
