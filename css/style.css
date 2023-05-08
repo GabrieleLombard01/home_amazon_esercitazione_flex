@@ -35,6 +35,10 @@ h2{
     color: #696b69;
     padding: 20px 0px 10px 10px;
 }
+button{
+    border: none;
+    background-color: white;
+}
 footer{
     margin-top: 30px;
     text-align: center;
@@ -44,6 +48,12 @@ footer{
     border: solid white 1px;
     border-style: inset;
   }
+  button:focus + .faq_descr{
+    display: block;
+  }
+    input[type="button"]{
+        cursor: pointer;
+        }
 /*Utilties*/
 .nav1_buttons{
     min-height: 50px;
@@ -66,7 +76,6 @@ footer{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-top: 5px;
 }
     .card{
         background-color: white;
@@ -91,6 +100,9 @@ footer{
         max-width: 1110px;
         min-height: 250px;
         margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
     }
 /*header*/
 #nav1{
@@ -201,6 +213,45 @@ footer{
     text-decoration: underline;
     line-height: 65px;
     padding-left: 10px;
+}
+.cat_card{
+    height: 100%;
+    width: calc(100% / 5);
+}
+.img_catsize{
+    width: 100%;
+    
+}
+/*Faq*/
+.faq_conteiner{
+background-color: white;
+margin: 0 auto;
+width: 1000px;
+}
+.faq_title{
+margin: 20px 0px 20px 0px;
+}
+.faq_conteined{
+min-width: 90px;
+border-top: solid #999999 1px;
+}
+#faq_conteined_final{
+border-bottom: solid #999999 1px;
+margin-bottom: 20px;
+}
+.faq{
+margin: 40px 0px 20px 0px;
+display: inline-block;
+}
+.fa-sort-down{
+margin-left: 120px;
+position: relative;
+bottom: 5px;
+}
+.faq_descr{
+background-color: white;
+margin: 0px 10px 20px 10px;
+display: none;
 }
 /*Footer*/
 #foot_1sect{
