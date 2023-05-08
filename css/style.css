@@ -21,6 +21,9 @@ a{
     text-decoration: none;
     color: white;
 }
+input{
+    padding-left: 10px;
+}
 main{
     background-image: url("../img/background_conteiner.png");
     background-size: cover;
@@ -80,13 +83,13 @@ footer{
         min-height: 250px;
         margin-top: 20px;
     }
-    /*header*/
-    #nav1{
-        min-height: 60px;
-        background-color: #131921;
-        display: flex;
-        justify-content: space-between;
-        color: white;
+/*header*/
+#nav1{
+    min-height: 60px;
+    background-color: #131921;
+    display: flex;
+    justify-content: space-between;
+    color: white;
 }
 .nav1_logo{
     display: flex;
@@ -102,7 +105,8 @@ footer{
     margin-left: 30px;
 }
 .superior_conteined{
-    margin: 10px 10px 0px 10px;
+    text-align: start;
+    margin: 10px 10px 0px 15px;
     color: rgb(209, 209, 209);
 }
 .nav_conteined{
@@ -122,20 +126,26 @@ footer{
     background-color: white;
     margin-top: 12px;
     height: 40px;
-    width: 600px;
+    width: 60%;
     border-radius: 5px;
     display: flex;
 }
 #search1{
     background-color: #f3f3f3;
     height: 100%;
-    width: calc(100% - 70%);
+    width: calc(100% - 85%);
     border-radius: 5px 5px;
+    border: solid #dddddd 1px;
+}
+#category{
+    color: #696b69;
+    line-height: 35px;
+    padding-left: 10px;
 }
 #search2{
     background-color: white;
     height: 100%;
-    width: calc(100% - 40%);
+    width: calc(100% - 1%);
     border: none;
     border-top-right-radius: 5px 5px;
 
@@ -143,9 +153,14 @@ footer{
 #search3{
     background-color: #febd69;
     height: 100%;
-    width: calc(100% - 88%);
+    width: calc(100% - 94%);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+.fa-magnifying-glass{
+    position: relative;
+    top: 11px;
+    left: 13px;
 }
 #nav1_orders{
     min-height: 50px;
