@@ -9,6 +9,11 @@
     <meta name="description" content="Home page di amazon.it">
     <meta name="description" content="Personal project">
     <meta name="description" content="just to try">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic" rel="stylesheet" />
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.png" type="img/png">
     <title>Amazon.it: elettronica, libri, musica, fashion, videogiochi, DVD, videogiochi, elettrodomestici e tanto altro</title>
@@ -18,12 +23,49 @@
     <header>
 
         <div id="nav1">
-            <div class="nav1_buttons"></div>
-            <div class="nav1_buttons"></div>
-            <div id="nav1_search"></div>
-            <div class="nav1_buttons info"></div>
-            <div id="nav1_orders"></div>
-            <div class="nav1_buttons info"></div>
+            <div class="nav1_buttons nav1_logo">
+                <a href="#"><img id="size_logo" src="img/logo.png" alt="logo"></a></div>
+            <div class="nav1_buttons">
+                <a href="#">
+                    <div id="ciao_nav" class="superior_conteined">Ciao</div>
+                    <div class="nav_conteined">
+                        <i class="fa-solid fa-location-dot fa-xl" style="color: #ffffff;"></i>
+                        <span><strong>Scegli il tuo indirizzo</strong></span>
+                    </div>
+                </a>
+            </div>
+
+            <div id="nav1_search">
+                <div id="search1"></div>
+                <input type="text" id="search2"></input>
+                <div id="search3"></div>
+            </div>
+
+            <div class="nav1_buttons info">
+                <a href="#">
+                <div class="superior_conteined">Ciao, accedi</div>
+                <div class="nav_conteined">
+                    <span><strong>Account e liste</strong></span>
+                    <i class="fa-solid fa-caret-down fa-lg" style="color: #ffffff;"></i>
+                </div>
+            </a>
+            </div>
+
+            <div id="nav1_orders">
+                <a href="#">
+                <div class="superior_conteined">Resi</div>
+                <div class="nav_conteined">
+                    <span><strong>e ordini</strong></span>
+                    
+                </div>
+                </a>
+            </div>
+
+            <div class="nav1_buttons info">
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #febd69;"></i>
+                </a>
+            </div>
         </div>
 
         <div id="nav2">

@@ -11,8 +11,16 @@
 }
 body{
     background-color: #e3e6e6;
+    font-family: 'Open Sans', sans-serif;
 }
 /*Generics*/
+header{
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 main{
     background-image: url("../img/background_conteiner.png");
     background-size: cover;
@@ -30,10 +38,10 @@ footer{
 .nav1_buttons{
     min-height: 50px;
     width: 250px;
-    border: solid white 1px;
 }
 .info{
     width: 150px;
+    text-align: center;
 }
 .nav2_links{
     min-height: 40px;
@@ -41,43 +49,68 @@ footer{
     background-color: rgb(175, 175, 175);
 }
 .conteiner{
-        margin: 0 auto;
-        max-width: 1110px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-        padding-top: 30px;
-}
-.card{
-    background-color: white;
-    min-height: 450px;
-    width: 350px;
-}
-.card_title{
-    background-color: bisque;
-    min-height: 70px;
-}
-.card_content{
-    background-color: rgb(253, 212, 161);
-    min-height: 310px;
-}
-.card_descr{
-    background-color: rgb(252, 162, 43);
-    min-height: 70px;
-}
-.showcase{
-    background-color: white;
     margin: 0 auto;
     max-width: 1110px;
-    min-height: 250px;
-    margin-top: 20px;
-}
-/*header*/
-#nav1{
-    min-height: 60px;
-    background-color: #131921;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+        padding-top: 30px;
+    }
+    .card{
+        background-color: white;
+        min-height: 450px;
+        width: 350px;
+    }
+    .card_title{
+        background-color: bisque;
+        min-height: 70px;
+    }
+    .card_content{
+        background-color: rgb(253, 212, 161);
+        min-height: 310px;
+    }
+    .card_descr{
+        background-color: rgb(252, 162, 43);
+        min-height: 70px;
+    }
+    .showcase{
+        background-color: white;
+        margin: 0 auto;
+        max-width: 1110px;
+        min-height: 250px;
+        margin-top: 20px;
+    }
+    /*header*/
+    #nav1{
+        min-height: 60px;
+        background-color: #131921;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+}
+.nav1_logo{
+    display: flex;
+    justify-content: center;
+    
+}
+#size_logo{
+    height: 60px;
+    width: 120px;
+    margin: 0 auto;
+}
+#ciao_nav{
+    margin-left: 30px;
+}
+.superior_conteined{
+    margin: 10px 10px 0px 10px;
+    color: rgb(209, 209, 209);
+}
+.nav_conteined{
+    margin: 5px 10px 0px 10px;
+}
+.fa-cart-shopping{
+    position: relative;
+    top: 22px;
 }
 #nav2{
     min-height: 40px;
@@ -86,14 +119,37 @@ footer{
     justify-content: space-between;
 }
 #nav1_search{
-    min-height: 50px;
+    background-color: white;
+    margin-top: 12px;
+    height: 40px;
     width: 600px;
-    border: solid white 1px;
+    border-radius: 5px;
+    display: flex;
+}
+#search1{
+    background-color: #f3f3f3;
+    height: 100%;
+    width: calc(100% - 70%);
+    border-radius: 5px 5px;
+}
+#search2{
+    background-color: white;
+    height: 100%;
+    width: calc(100% - 40%);
+    border: none;
+    border-top-right-radius: 5px 5px;
+
+}
+#search3{
+    background-color: #febd69;
+    height: 100%;
+    width: calc(100% - 88%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 #nav1_orders{
     min-height: 50px;
     width: 100px;
-    border: solid white 1px;
 }
 #nav2_largelink{
     min-height: 40px;
