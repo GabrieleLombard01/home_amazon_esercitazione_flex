@@ -35,8 +35,11 @@ footer{
     margin-top: 30px;
     text-align: center;
 }
-/*Selettori avanzati*/
-    
+/*Pseudo-classes*/
+  .nav2_links:hover{
+    border: solid white 1px;
+    border-style: inset;
+  }
 /*Utilties*/
 .nav1_buttons{
     min-height: 50px;
@@ -49,7 +52,9 @@ footer{
 .nav2_links{
     min-height: 40px;
     width: 80px;
-    background-color: rgb(175, 175, 175);
+    line-height: 37px;
+    text-align: center;
+    font-size: 15px;
 }
 .conteiner{
     margin: 0 auto;
@@ -169,7 +174,9 @@ footer{
 #nav2_largelink{
     min-height: 40px;
     width: 250px;
-    background-color: rgb(175, 175, 175);
+    line-height: 35px;
+    color: #b6b6b6;
+    font-weight: lighter;
 }
 /*jumbotron*/
 #ad_j{
