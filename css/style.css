@@ -187,7 +187,10 @@ footer{
     margin: 0 auto;
 }
 /*Main*/
-
+.size_img{
+    width: 350px;
+    height: 310px;
+}
 /*Footer*/
 #foot_1sect{
     background-color: #37475a;
