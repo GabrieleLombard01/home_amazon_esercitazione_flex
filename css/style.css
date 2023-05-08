@@ -31,6 +31,10 @@ main{
     max-width: 1500px;
     margin: 0 auto;
 }
+h2{
+    color: #696b69;
+    padding: 20px 0px 10px 10px;
+}
 footer{
     margin-top: 30px;
     text-align: center;
@@ -62,23 +66,23 @@ footer{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-        padding-top: 30px;
-    }
+    padding-top: 5px;
+}
     .card{
         background-color: white;
         min-height: 450px;
         width: 350px;
     }
     .card_title{
-        background-color: bisque;
+        background-color: rgb(255, 255, 255);
         min-height: 70px;
     }
     .card_content{
-        background-color: rgb(253, 212, 161);
+        background-color: rgb(255, 255, 255);
         min-height: 310px;
     }
     .card_descr{
-        background-color: rgb(252, 162, 43);
+        background-color: rgb(255, 255, 255);
         min-height: 70px;
     }
     .showcase{
@@ -188,8 +192,15 @@ footer{
 }
 /*Main*/
 .size_img{
-    width: 350px;
-    height: 310px;
+    width: 340px;
+    height: 340px;
+    padding-left: 10px;
+}
+.blue_link{
+    color: blue;
+    text-decoration: underline;
+    line-height: 65px;
+    padding-left: 10px;
 }
 /*Footer*/
 #foot_1sect{
